@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class VowelChecker {
+public class VowelCheck {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -27,6 +27,7 @@ public class VowelChecker {
         if (!found) {
             System.out.print("No vowels found.");
         }
+        sc.close();
     }
 }
 
