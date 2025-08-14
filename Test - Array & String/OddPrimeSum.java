@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class OddPrimeIndexSum {
+public class OddPrimeSum {
     // Function to check if a number is prime
     static boolean isPrime(int n) {
         if (n < 2)
