@@ -12,16 +12,15 @@ public class wrapperClass {
         System.out.println(a == b); // matching the address of the wrapper class
         int num = a.intValue();
         System.out.println("The int value is : " + num);
-        
         String s = "4";
         System.out.println(s);
-        int num = Integer.parseInt(s);
+        // int num = Integer.parseInt(s);
         num /= 2;
         String ans = Integer.toString(num);
         System.out.println(ans);
 
         String sentence = "Acer Laptop Are Good.";
-        String ans = "";
+        // String ans = "";
         for(int i = 0;i < sentence.length();i++){
             char ch = sentence.charAt(i); // A
             if(Character.isWhitespace(ch)){
